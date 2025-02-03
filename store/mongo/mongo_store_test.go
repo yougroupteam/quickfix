@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/internal/testsuite"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/yougroupteam/quickfix"
+	"github.com/yougroupteam/quickfix/internal/testsuite"
 )
 
 // MongoStoreTestSuite runs all tests in the message.StoreTestSuite against the MongoStore implementation.

@@ -21,8 +21,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/config"
+	"github.com/yougroupteam/quickfix"
+	"github.com/yougroupteam/quickfix/config"
 )
 
 type fileLog struct {
