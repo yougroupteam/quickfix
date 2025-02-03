@@ -21,8 +21,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/quickfixgo/quickfix"
 	"github.com/stretchr/testify/require"
+	"github.com/yougroupteam/quickfix"
 )
 
 func requireNotFileExists(t *testing.T, fname string) {

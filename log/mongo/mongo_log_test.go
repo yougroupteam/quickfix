@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/quickfixgo/quickfix"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/yougroupteam/quickfix"
 )
 
 // MongoLogTestSuite runs tests for the MongoLog impl of Log.

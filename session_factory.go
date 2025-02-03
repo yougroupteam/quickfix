@@ -23,9 +23,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/quickfixgo/quickfix/config"
-	"github.com/quickfixgo/quickfix/datadictionary"
-	"github.com/quickfixgo/quickfix/internal"
+	"github.com/yougroupteam/quickfix/config"
+	"github.com/yougroupteam/quickfix/datadictionary"
+	"github.com/yougroupteam/quickfix/internal"
 )
 
 var dayLookup = map[string]time.Weekday{

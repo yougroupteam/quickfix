@@ -26,9 +26,9 @@ import (
 	"time"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/quickfixgo/quickfix"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/yougroupteam/quickfix"
 )
 
 // SQLLogTestSuite runs tests for the SQLLog impl of Log.

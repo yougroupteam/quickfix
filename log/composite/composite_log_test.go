@@ -25,13 +25,13 @@ import (
 	"time"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/quickfixgo/quickfix"
-	"github.com/quickfixgo/quickfix/log/file"
-	"github.com/quickfixgo/quickfix/log/mongo"
-	"github.com/quickfixgo/quickfix/log/screen"
-	"github.com/quickfixgo/quickfix/log/sql"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/yougroupteam/quickfix"
+	"github.com/yougroupteam/quickfix/log/file"
+	"github.com/yougroupteam/quickfix/log/mongo"
+	"github.com/yougroupteam/quickfix/log/screen"
+	"github.com/yougroupteam/quickfix/log/sql"
 )
 
 // CompositeLogTestSuite runs tests for the MongoLog impl of Log.
